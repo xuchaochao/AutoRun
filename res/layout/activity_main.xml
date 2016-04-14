@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.xcc.auto.MainActivity" 
+    android:orientation="vertical"
+    >
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="输入:" 
+        android:textSize="24sp"
+        />
+
+    
+	<EditText 
+	    android:id="@+id/jarname" 
+	    android:layout_height="50dp" 
+	    android:layout_width="wrap_content" 
+	    android:minLines="2"
+	    android:maxLines="2"
+	    android:hint="JAR包名 ">
+    </EditText>
+
+    
+    <EditText 
+	    android:id="@+id/testname" 
+	    android:layout_height="50dp" 
+	    android:layout_width="wrap_content" 
+	    android:minLines="2"
+	    android:maxLines="2"
+	    android:hint="包名.类名#方法名 ">
+    </EditText>
+   
+    <Button
+        android:id="@+id/run" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击运行" 
+        android:layout_marginBottom="30dp"
+        />
+    
+ 
+  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="示例:" 
+        android:textSize="24sp"
+        
+        />
+   <Button
+       android:id="@+id/dial" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拨打10086" 
+        android:layout_marginBottom="30dp"
+        />
+ 
+   
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*该软件需要root权限" 
+        android:textSize="18sp"
+        />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*JAR包默认存放在/data/local/tmp目录下" 
+        android:textSize="18sp"
+        />
+
+    
+</LinearLayout>
