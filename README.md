@@ -11,8 +11,6 @@ Android应用获得root权限后可以执行shell uiautomator runtest来运行ja
 将uiautomator生成的jar文件推送到手机的/data/local/tmp目录下,在手机应用中输入对应信息即可运行
 
 ####演示:
-![image](http://upload-images.jianshu.io/upload_images/1867836-4b467c1f881e9da6.png)
-
 ![image](http://upload-images.jianshu.io/upload_images/1867836-7213e625c44fc47b.gif)
 
-![image](https://github.com/YourAcountName/ProjectName/blob/master/GIFName.gif )
+
