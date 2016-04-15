@@ -12,3 +12,7 @@ Android应用获得root权限后可以执行shell uiautomator runtest来运行ja
 
 ####演示:
 ![image](http://upload-images.jianshu.io/upload_images/1867836-4b467c1f881e9da6.png)
+
+![image](http://upload-images.jianshu.io/upload_images/1867836-7213e625c44fc47b.gif)
+
+
