@@ -15,4 +15,4 @@ Android应用获得root权限后可以执行shell uiautomator runtest来运行ja
 
 ![image](http://upload-images.jianshu.io/upload_images/1867836-7213e625c44fc47b.gif)
 
-
+![image](https://github.com/YourAcountName/ProjectName/blob/master/GIFName.gif )
